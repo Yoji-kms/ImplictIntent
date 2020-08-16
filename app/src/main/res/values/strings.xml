@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Implict Intent</string>
+    <string name="synchronization">Synchronization</string>
+    <string name="morning">Morning</string>
+    <string name="afternoon">Afternoon</string>
+    <string name="evening">Evening</string>
+</resources>
