@@ -1,10 +1,8 @@
 package com.yoji.implictintent;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
-public class AfternoonActivity extends AppCompatActivity {
+public class AfternoonActivity extends MainActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -12,6 +10,6 @@ public class AfternoonActivity extends AppCompatActivity {
         setContentView(R.layout.activity_afternoon);
         setTitle(R.string.afternoon);
 
-        Utils.init(this);
+        init();
     }
 }
